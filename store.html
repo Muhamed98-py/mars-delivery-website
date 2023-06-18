@@ -1,0 +1,166 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./store.css">
+    <title>МАГАЗИН</title>
+</head>
+
+<body>
+    <header class="nav-header">
+        <a class="logo" href="./index.html">
+            <img src="./img/logo.svg" alt="">
+        </a>
+        <!-- <img src="./img/logo.svg" alt=""> -->
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img class="close-menu"
+                    src="./img/close-menu.svg" alt=""></a>
+            <div class="overlay-content">
+                <a href="./about.html">О нас</a>
+                <a href="./store.html">Магазин</a>
+                <a href="./story.html">История</a>
+                <a href="./index.html">Главная</a>
+            </div>
+        </div>
+        <a onclick="openNav()"> <img src="./img/burger-menu.svg" alt=""></a>
+    </header>
+
+    <section class="container">
+        <h1 class="store-title">
+            НАШ МАГАЗИН
+        </h1>
+
+        <div class="category-container">
+            <div class="content-container">
+                <h1 class="category-title">(ОРИГИНАЛЬНЫЙ САУНДТРЕК)</h1>
+                <div class="content-data">
+                    <img class="song-cover" src="./img/song-cover.svg" alt="">
+                </div>
+
+                <a class="ref-btn" href="https://clck.ru/34jh8V">ПОСЛУШАТЬ</a>
+            </div>
+        </div>
+
+        <div class="category-container">
+            <div class="content-container">
+                <h1 class="category-title">(книга)</h1>
+                <div class="content-data">
+                    <img class="book" src="./img/book-1.jpg" alt="">
+                    <img class="book" src="./img/book-2.jpg" alt="">
+                </div>
+                <a class="ref-btn" href="https://clck.ru/33t54V">ПОЛИСТАТЬ</a>
+            </div>
+        </div>
+
+        <div class="category-container">
+            <div class="content-container">
+                <h1 class="category-title">(ПОСТЕРЫ И АФИШИ)</h1>
+                <div class="slider-wrap">
+                    <div class="slider">
+                        <div class="slider-inner">
+                            <div class="item-color">
+                                <div class="item">
+                                    <h3>Ежегодная конференция посвященная космической доставке</h3>
+                                </div>
+                            </div>
+                            <div class="item-color">
+                                <div class="item">
+                                    <h3>Совершенно другие законы физик. Кристофер Нолан завидует</h3>
+                                </div>
+                            </div>
+                            <div class="item-color">
+                                <div class="item">
+                                    <h3>Кристофер Нолан просит о консультации для своего нового фильма</h3>
+                                </div>
+                            </div>
+                            <div class="item-color">
+                                <div class="item">
+                                    <h3>Анонс мастер-класса по доставке грузов</h3>
+                                </div>
+                            </div>
+                            <div class="item-color">
+                                <div class="item">
+                                    <h3>Объявили тендер на создание милейших роботов-грузчиков</h3>
+                                </div>
+                            </div>
+
+                            <div class="item-color">
+                                <div class="item">
+                                    <h3>Красный то, какой злюка</h3>
+                                </div>
+                            </div>
+
+                            <div class="item-color">
+                                <div class="item">
+                                    <h3>Брендированная кампания по продвижению компании</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="prog-bar-inner"></div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+        <a href="https://muhamed98-py.github.io/interactive-web-poster/">
+            <img class="pos-1" src="./img/POS-3.svg" alt="">
+        </a>
+
+        <div class="form-container">
+            <div class="form-flex">
+                <form class="form">
+                    <div class="form-group">
+                        <input type="text" id="product" name="product" placeholder="Товар" required />
+                    </div>
+
+                    <div class="form-group">
+                        <input type="number" id="quantity" name="quantity" placeholder="Количество" min="1" required />
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="address" name="address" placeholder="Адрес" required />
+                    </div>
+                </form>
+
+                <form class="form">
+                    <div class="no-margin">
+                        <input type="text" id="full-name" name="full-name" placeholder="ФИО" required />
+                    </div>
+
+                    <div class="no-margin">
+                        <input type="email" id="email" name="email" placeholder="Email" required />
+                    </div>
+
+                    <div class="no-margin">
+                        <input type="text" id="promo" name="promo" placeholder="Промо-код" />
+                    </div>
+                </form>
+            </div>
+
+            <input class="button-submit" type="submit" value="ОТПРАВИТЬ" />
+
+    </section>
+
+    <section class="modal">
+        <h1>Юху! Наш менеджер получил ваш заказ. Подробная информация придёт вам на почту</h1>
+        <p class="modal-close">закрыть</p>
+    </section>
+
+    <footer class="footer">
+        <h1>БАШИК МУХАММЕД <br> Б22ДЗ08 <br> АРТ-ПРАКТИКА <br> 2023 </h1>
+        <img class="hse-logo" src="./img/hse-logo.svg" alt="">
+    </footer>
+
+    
+    <script src="./index.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
