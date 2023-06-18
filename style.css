@@ -119,7 +119,7 @@ body {
     height: 250px;
 }
 
-.box-1 {
+/* .box-1 {
     margin-top: -60px;
     width: 10%;
     cursor: pointer;
@@ -169,7 +169,7 @@ body {
     padding: 10px 30px;
     border-radius: 8px;
     gap: 10px;
-}
+} */
 
 .bottom-frame {
     margin: 20px;
